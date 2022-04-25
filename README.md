@@ -3,5 +3,5 @@
 Install:
 npm install -g typescript
 
-Then:
-In console use tsc(typescript compiler) filename.ts to transpile to filename.js(ES5 - BrowerApp)
+Then use tsc(typescript compiler) to:
+transpile filename.ts to filename.js(ES5 - BrowerApp)
