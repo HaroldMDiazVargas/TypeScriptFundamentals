@@ -1,0 +1,12 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+var like_component_1 = require("./like.component");
+var like1 = new like_component_1.LikeComponent(10, true);
+console.log(like1.likesCount);
+console.log(like1.buttonCount);
+like1.onClick();
+console.log(like1.likesCount);
+console.log(like1.buttonCount);
+like1.onClick();
+console.log(like1.likesCount);
+console.log(like1.buttonCount);
